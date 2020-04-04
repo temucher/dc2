@@ -1,0 +1,32 @@
+TESTING BACKOFF
+======================
+              precision    recall  f1-score   support
+
+         ham       0.99      0.99      0.99      1215
+        spam       0.93      0.93      0.93       181
+
+              precision    recall  f1-score   support
+
+         ham       0.98      0.99      0.99      1203
+        spam       0.94      0.88      0.91       193
+
+              precision    recall  f1-score   support
+
+         ham       0.98      1.00      0.99      1201
+        spam       0.97      0.90      0.94       195
+
+              precision    recall  f1-score   support
+
+         ham       0.99      1.00      1.00      1203
+        spam       0.97      0.92      0.95       193
+
+              precision    recall  f1-score   support
+
+         ham       0.99      0.99      0.99      1213
+        spam       0.96      0.92      0.94       183
+
+AVERAGES
+======================
+              precision    recall  f1-score   support
+
+messages       0.982      0.983      0.983      1396
