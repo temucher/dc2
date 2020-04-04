@@ -1,5 +1,5 @@
 import pandas as pd
-from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
+from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, classification_report, confusion_matrix
@@ -72,7 +72,6 @@ result = result.join(label_df)
 
 print(result.head())
 
-tfidf_vectorizer = TfidfVectorizer()
 bow_vectorizer = CountVectorizer() # unigrams
 bigram_vectorizer = CountVectorizer(ngram_range=(2,2)) # bigrams
 model = MultinomialNB()
