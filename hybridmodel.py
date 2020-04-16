@@ -102,3 +102,4 @@ for index in ham_indices:
     bigram_pred[index] = bow_pred[index]
 
 print(classification_report(y_test, bigram_pred))
+print(accuracy_score(y_test, bigram_pred))
